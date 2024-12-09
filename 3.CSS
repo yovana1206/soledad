@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6ad3ee;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #121113;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact-item {
+    text-align: left;
+}
+
+.faq {
+    padding: 50px;
+    background-color: #54abc0;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq-item {
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.mobile-app img {
+    height: 40px;
+    margin-left: 10px;
+}
